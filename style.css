@@ -2,7 +2,7 @@ html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
 body {
-    background-color:#00007C;
+    background-color:#616161;
     line-height: 1.5;
     font-family: Montserrat;
     font-weight: 500;
@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    color: #3619b6;
+    color: #616161;
     font-size: 80px;
     text-align: center;
     background-color: ;
@@ -49,7 +49,7 @@ h1, h2, h3 {
     padding: 20px 20px 20px 180px;
     margin-top: 30px;
     margin-bottom: 30px;
-    background-color: #FF5348;
+    background-color: #FFD900;
     border-radius: 0 145px 145px 0;
     float: left;
 }
@@ -79,7 +79,7 @@ h1, h2, h3 {
 }
 
 .socky {
-    background-color: white;
+    background-color: #ffe65a;
     color: black;
     padding: 4px 10px;
     border-radius: 10px;
@@ -104,7 +104,7 @@ header, footer, section {
 
 header {
     padding-bottom: ;
-    background-color: #FFD900;
+    background-color: ;
 }
 
 footer {
