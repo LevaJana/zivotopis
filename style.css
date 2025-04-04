@@ -1,3 +1,183 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+    background-color:#00007C;
+    line-height: 1.5;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+}
+
 h1 {
-    color: red;
+    color: #3619b6;
+    font-size: 80px;
+    text-align: center;
+    background-color: ;
+    line-height: 1.2;
+    margin-top: 75px;
+    
+    
+}
+
+h2 {
+    font-size: 40px;
+    color: white;
+}
+
+h3 {
+    font-size: 25px;
+    color: #3619b6;
+    text-align: center;
+    line-height: 1;
+}
+
+h1, h2, h3 {
+    font-family: Montserrat;
+}
+
+
+#foto {
+    width: 250px;
+    border-radius: 50%;
+}
+
+#foto-box {
+    width: 450px;
+    height: 290px;
+    padding: 20px 20px 20px 180px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #FF5348;
+    border-radius: 0 145px 145px 0;
+    float: left;
+}
+
+.ikona {
+    width: 23px;
+    margin-right: 5px;
+    float: left;
+}
+
+#kontakty {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF5348;
+    margin-bottom: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+#email {
+    color:black;
+    transition: color 0.5s;
+}
+
+#email:hover {
+    color: white;
+}
+
+.socky {
+    background-color: white;
+    color: black;
+    padding: 4px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.socky:hover {
+    background-color: #FFD900;
+    color: white;
+}
+
+header, footer, section {
+    width: 900px;
+    margin: 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    background-color: white;
+    padding: 0 0px;
+}
+
+header {
+    padding-bottom: ;
+    background-color: #FFD900;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+section {
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+td {
+    width: 50%;
+}
+
+#nadpis-soc {
+    background-color: #FF5348;
+    border-radius: 0 0 50px 0;
+    border-right: 10px solid white;
+    padding: 0 30px;
+}
+
+#nadpis-soc h2 {
+    text-align: left;
+}
+
+#nadpis-web {
+    background-color: #FFD900;
+    border-radius: 0 0 0 50px;
+    border-left: 10px solid white;
+    padding: 0 30px;
+}
+
+#nadpis-web h2 {
+    text-align: right;
+}
+
+.nadpis-zivotopis {
+    background-color: #white;
+    border-radius: 40px;
+    border-left: 10px solid white;
+}
+
+.bunka-soc {
+    background-color: #FF5348;
+    padding: 10px 30px;
+    border-radius: 0 50px 50px 0;
+    border-right: 10px solid white;
+}
+
+.bunka-web {
+    background-color: #FFD900;
+    padding: 10px 30px;
+    border-radius: 50px 0 0 50px;
+    border-left: 10px solid white;
+    text-align: right;
+}
+
+#dov-soc {
+    border-bottom-right-radius: 0;
+}
+
+#dov-web {
+    border-bottom-left-radius: 0;
+}
+
+table {
+    border-spacing: 0;
+}
+
+#o-mne {
+    padding: 10px 30px;
+    font-style: italic;
 }
