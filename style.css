@@ -4,42 +4,58 @@ html { box-sizing: border-box; }
 body {
     background-color:#616161;
     line-height: 1.4;
-    font-family: Montserrat;
+    font-family: Montserrat, Avenir, Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     margin: 0;
 }
 
+header, footer, section {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    background-color: white;
+}
+
+section {
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+h1, h2, h3 {
+    font-family: Montserrat, Avenir, Roboto, sans-serif;
+    text-align: center;
+}
+
 h1 {
     color: #616161;
     font-size: 80px;
-    text-align: center;
-    background-color: ;
-    line-height: 1.2;
-    margin-top: 75px;
-    
-    
+    line-height: 1.1;
+    margin-top: 80px;
 }
 
 h2 {
     font-size: 40px;
     color: white;
-    line-height: 1.2;
+    line-height: 1.1;
 }
 
 h3 {
     font-size: 25px;
     color: #616161;
-    text-align: center;
     line-height: 1;
-}
-
-h1, h2, h3 {
-    font-family: Montserrat;
 }
 
 #foto {
     width: 250px;
+    height: 250px;
     border-radius: 50%;
 }
 
@@ -54,12 +70,6 @@ h1, h2, h3 {
     float: left;
 }
 
-.ikona {
-    width: 23px;
-    margin-right: 5px;
-    float: left;
-}
-
 #kontakty {
     padding: 10px 30px;
     display: flex;
@@ -69,9 +79,16 @@ h1, h2, h3 {
     border-radius: 0 0 20px 20px;
 }
 
+.ikona {
+    width: 23px;
+    margin-right: 5px;
+    float: left;
+}
+
 #email {
     color:black;
     transition: color 0.5s;
+    font-style: normal;
 }
 
 #email:hover {
@@ -79,7 +96,7 @@ h1, h2, h3 {
 }
 
 .socky {
-    background-color: #ffd980;
+    background-color: #face68;
     color: black;
     padding: 4px 10px;
     border-radius: 10px;
@@ -92,30 +109,21 @@ h1, h2, h3 {
     color: white;
 }
 
-header, footer, section {
-    width: 900px;
-    margin: 0 0;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: auto;
-    background-color: white;
-    padding: 0 0px;
+#o-mne {
+    padding: 10px 30px;
+    font-style: italic;
 }
 
-header {
-    padding-bottom: ;
-    background-color: ;
+#duraz-soc {
+    color: #FF5348;
 }
 
-footer {
-    text-align: center;
-    margin-top: 20px;
-    border-radius: 20px 20px 0 0;
+#duraz-web {
+    color: #FFC233;
 }
 
-section {
-    border-radius: 20px;
-    margin-bottom: 20px;
+table {
+    border-spacing: 0;
 }
 
 td {
@@ -129,10 +137,6 @@ td {
     padding: 0 30px;
 }
 
-#nadpis-soc h2 {
-    text-align: center;
-}
-
 #nadpis-web {
     background-color: #FFC233;
     border-radius: 0 0 0 50px;
@@ -140,44 +144,52 @@ td {
     padding: 0 30px;
 }
 
-#nadpis-web h2 {
-    text-align: center;
-}
-
-.nadpis-zivotopis {
-    background-color: white;
-    border-radius: 40px;
-    border-left: 10px solid white;
+.bunka-soc, .bunka-web {
+    padding: 5px 30px;
+    vertical-align: top;
 }
 
 .bunka-soc {
     background-color: #FF5348;
-    padding: 5px 30px;
     border-radius: 0 50px 50px 0;
     border-right: 10px solid white;
-    vertical-align: top;
 }
 
 .bunka-web {
     background-color: #FFC233;
-    padding: 5px 30px;
     border-radius: 50px 0 0 50px;
     border-left: 10px solid white;
-    vertical-align: top;
+}
+
+.pozice, .pozice-odkaz {
+    font-style: italic;
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.pozice {
+    margin-top: -13px;
+}
+
+.pozice-odkaz {
+    margin-top: -10px;
 }
 
 .odk-ziv {
-    background-color: #616161;
-    color: white;
-    padding: 2px 8px;
-    border-radius: 10px;
+    background-color: #fd7167;
+    color: black;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
     text-decoration: none;
+    font-style: normal;
     transition: color 0.5s, background-color 0.5s;
 }
 
 .odk-ziv:hover {
     background-color: #FF5348;
-    color: black;
+    color: white;
 }
 
 #dov-soc {
@@ -186,22 +198,4 @@ td {
 
 #dov-web {
     border-bottom-left-radius: 0;
-}
-
-table {
-    border-spacing: 0;
-}
-
-.pozice {
-    font-style: italic;
-    color: white;
-    font-size: 14px;
-    margin-left: 15px;
-    margin-top: -13px;
-    
-}
-
-#o-mne {
-    padding: 10px 30px;
-    font-style: italic;
 }
